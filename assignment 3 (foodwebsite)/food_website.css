@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+}
+.navbar1{
+    height: 100px;
+    background-image: url(foodbg.jpeg);
+    background-size: cover;
+    font-family: arial;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navphoto{
+    height: 90px;
+    width: 90px;
+    background-image: url("orderfood.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: 160px;
+}
+p{
+    margin-left: 50px;
+}
+h3{
+    position: absolute;
+    top:430px;
+    left: 37%;
+    color: white;
+     animation:hello 2s linear 2s infinite normal;
+
+}
+.content{
+    height: 500px;
+    width: 100%;
+    /* margin-top: 10px; */
+    background-color:rgb(105, 24, 105);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-image: url(foodbg2.jpeg);
+     background-size: cover; */
+}
+@keyframes hello {
+    0%{color: red;}
+    50%{color: blue;}
+    100%{color:pink;}
+}
+ .navbar {
+      background: #ff6600;
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar ul li {
+      display: inline;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: #222;
+    }
+
+    /* Search box */
+    .search-container {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+
+    .search-container input {
+      border: none;
+      outline: none;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      width: 180px;
+    }
+
+    .search-container button {
+      border: none;
+      background: #ff6600;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-left: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .search-container button:hover {
+      background: #e65c00;
+    }
+.food{
+height: 200px;
+width: 200px;
+ margin-top: 20px;
+/* border: 2px solid black; */
+background-color: white;
+ }
+#food1{
+height:150px ;
+width: 200px;
+background-image:url(pasta.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food2{
+height:150px ;
+width: 200px;
+background-image:url(kurkure.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food3{
+height:150px ;
+width: 200px;
+background-image:url(coke.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food4{
+height:150px ;
+width: 200px;
+background-image:url(sanwidth.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food5{
+height:150px ;
+width: 200px;
+background-image:url(burger.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food6{
+height:150px ;
+width: 200px;
+background-image:url(momos.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food7{
+height:150px ;
+width: 200px;
+background-image:url(noodle.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ #food8{
+height:150px ;
+width: 200px;
+background-image:url(panipuri.jpeg) ;
+ background-size: cover;
+ background-position: center;
+
+ }
+ form{
+    height: 270px;
+    width: 220px;
+    border: 2px solid black;
+    background-color:white;
+    color:black;
+    margin-top: 10px;
+      border-radius: 10px;
+      padding:10px;
+      line-height: 24px;
+      font-weight: 900;
+ }
+ h2{
+    padding-left: 37%;
+    background-color:rgb(105, 24, 105);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    /* animation:hello 2s linear 2s infinite normal; */
+ }
+ .form{
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(105, 24, 105);
+  
+ }
+ button{
+    margin-left: 27%;
+    margin-top: 20px;
+    background-color: rgb(105, 24, 105);
+    color: white;
+ }
+ .seemore{
+    height: 30px;
+    background-color:rgb(105, 24, 105) ;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: end;
+
+ }
+ #para{
+    margin-right: 14px;
+ }
+ .gold-section {
+      padding: 60px 20px;
+      background-color: black;
+    }
+
+    .gold-section h1 {
+      font-size: 42px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #d4af37, #b8860b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 10px 0;
+    }
+
+    .gold-section h2 {
+      font-size: 18px;
+      font-weight: normal;
+      color: #d4af37;
+      margin-bottom: 40px;
+    }
+
+    .benefits-title {
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin: 30px 0;
+      color: #fff;
+    }
+
+    .benefits {
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .benefit {
+      text-align: center;
+      max-width: 250px;
+    }
+
+    .benefit img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 15px;
+    }
+
+    .benefit h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .benefit p {
+      font-size: 14px;
+      color: #d4af37;
+    }
+    .footer{
+        text-align: center;
+    }
+    #india{
+        background-color: black;
+        margin-right: 270px;
+    }
+    .at{
+        margin-top: 80px;
+    }
